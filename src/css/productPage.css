@@ -1,0 +1,61 @@
+.table_container{
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding: 10px; */
+}
+.table_header{
+    /* border: 5px solid black; */
+    /* width: 200%; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    background-color: #F8F9FA;
+    /* padding-top: 10px; */
+    /* border: 1px solid red; */
+}
+td{
+    /* border: 1px solid black; */
+    text-align: start;
+    text-transform: capitalize;
+    height: 30px;
+    padding-left: 15px;
+}
+th{
+    /* border: 1px solid black; */
+    height: 40px;
+    border-radius: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    /* width: 100%; */
+}
+.edit_icon{
+    cursor: pointer;
+}
+.delete_icon{
+    color:red;
+    cursor: pointer;
+}
+.edit_box{
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.edit_input{
+    height:30px;
+    padding:5px;
+    border-radius:5px;
+    border: 1px solid gray;
+
+}
+.edit_input_wrap{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    text-align: start;
+}
